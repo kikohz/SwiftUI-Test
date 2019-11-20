@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":"url.cn",
+        "enabled":true,
+        "sid":"sougou",
+        "api":"https://sa.sogou.com/gettiny",
+        "parameter":"url=https://www.google.com",
+        "details":"搜狗提供的短链接服务"
+    },
+    {
+        "id": 2,
+        "name":"dwz.cn",
+        "enabled":true,
+        "sid":"baidu",
+        "api":"https://dwz.cn/admin/v2/create",
+        "parameter":"TermOfValidity=long-term&Url=http://google.com",
+        "details":"dwz开始收费,暂时无法转换，谢谢"
+    },
+    {
+        "id": 3,
+        "name":"tinyurl",
+        "sid":"tinyurl",
+        "enabled":true,
+        "api":"https://tinyurl.com/api-create.php",
+        "parameter":"url=https://www.google.com",
+        "details":"TinyURL是第一个专门提供缩略网址服务的网站"
+    },
+    {
+        "id": 4,
+        "name":"bit.ly",
+        "enabled":true,
+        "sid":"bitly",
+        "api":"https://api-ssl.bitly.com/v4/shorten",
+        "parameter":"group_guid=string&domain=bit.ly&long_url=string",
+        "details":"bit.ly是一个提供网址缩略的服务站点"
+    }
+]
