@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(urlServives) { urlServiceModel in
-                NavigationLink(destination: DetailsIView(request: URLRequest(url: URL(string: urlServiceModel.api)!))) {
+                NavigationLink(destination: DetailsIView()) {
                     Image(urlServiceModel.sid).resizable().frame(width: 50, height: 50)
                     VStack(alignment: .leading) {
                         Text(urlServiceModel.name)
